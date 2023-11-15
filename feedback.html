@@ -1,0 +1,45 @@
+<!doctype html />
+
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Чат-бот HelpingHand</title>
+		<link href="feedback.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" />
+		<link href="иконка для сайта.png" rel="icon" type="image/png" />
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html"><img id="logo" src="иконка для сайта.png" alt="Логотип HelpingHand" width="40" /></a>
+			<ul class="header_elements" align="right">
+				<li><a href="https://t.me/somethinginformationbot" target="_blank" class="header_element_active">К боту</a></li>
+				<li><a id="separator">|</a></li>
+				<li><a href="documentation.html" class="header_element_active">Документация</a></li>
+			</ul>
+		</header>
+		<main>
+			<div class="align">
+				<h1>Ваши идеи помогают проекту двигаться в правильном направлении.<br />Будем крайне благодарны за обратную связь!</h1>
+				<input class="inputs" id="login" type="text" placeholder="Контакты" /><br />
+				<textarea class="inputs" id="comment" type="text" placeholder="Ваши отзывы и идеи"></textarea><br />
+				<button onclick="window.location.reload()"><span>Отправить</span></button>
+			</div>
+		</main>
+		<footer>
+			<div class="block">
+				<ul class="footer_elements">
+					<li class="footer_element contacts"><strong>Контакты:</strong></li>
+					<li class="footer_element">helping-hand-bot@yandex.ru</li>
+					<li class="footer_element">+7-952-635-44-44</li>
+				</ul>
+			</div>
+			<div class="block">
+				<div class="footer_elements2">
+					<a id="feedback" href="feedback.html">Оставить отзыв</a>
+					<p id="copyright">© 2022 «<a href="index.html" id="copyright_little">HelpingHand</a>»</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
